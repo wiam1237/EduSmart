@@ -1,0 +1,17 @@
+# Environnement Data Science et Machine Learning.
+# Python 3.12. Versions épinglées pour macOS (Apple Silicon) et Windows (AMD64).
+# L'image de l'API n'installe pas ce fichier.
+# XGBoost sur macOS a besoin de la bibliothèque OpenMP : brew install libomp
+# Sur Windows, le redistribuable Visual C++ 2015-2022 fournit vcomp140.dll si le chargement échoue.
+
+pandas==3.1.1
+numpy==2.5.5
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+
+# Ouverture du notebook d'analyse exploratoire.
+jupyterlab==4.6.6

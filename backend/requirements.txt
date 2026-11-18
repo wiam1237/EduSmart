@@ -1,0 +1,11 @@
+# API — Python 3.12, wheels disponibles sur macOS ARM64 et Windows AMD64.
+fastapi==0.164.0
+uvicorn[standard]==0.54.0
+pydantic-settings==2.16.3
+SQLAlchemy==2.1.9
+psycopg[binary]==3.3.9
+python-dotenv==1.2.4
+
+# Tests (installés avec l'API pour que les deux postes lancent pytest sans fichier supplémentaire).
+httpx2==2.16.2
+pytest==9.2.0
